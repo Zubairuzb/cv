@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d4cece;
+}
+
+.container{
+    width: 70%;
+    background: #ffffff;
+    margin: 20px auto;
+    padding-bottom: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    margin: 0px 40px;
+    width: 20%;
+    font-size: 14px;
+}
+
+.content{
+    text-align: justify;
+    width: 60%;
+    line-height: 25px;
+    font-size: 1rem;
+}
+
+.address{
+    float: right;
+    margin: 20px 40px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.name{
+    clear: both;
+    margin: 20px 40px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #4689a8;
+}
+
+.objectives{
+    border-top: 1px solid #4689a8;
+    border-bottom: 2px solid #4689a8;       
+}
+
+h3, h4, h5{
+    margin: 0;
+    padding: 0;
+}
+
+.experience{
+    border-top: 1px solid #4689a8;
+}
+
+.education{
+    border-top: 1px solid #4689a8;
+}    
+.exp{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.exp:nth-child(4){
+    margin-bottom: 40px;
+}
+
+.qualification{
+    margin: 20px 0px;
+    border-top: 1px solid #4689a8;
+}
+
+.professional{
+    border-top: 1px solid #4689a8;
+}
+
+.reference{
+    border-top: 1px solid #4689a8;
+    border-bottom: 2px solid #4689a8;
+}
+
+@media only screen and (max-width: 600px){
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading{
+        width: 100%;
+        text-align: center;
+    }
+
+    .content{
+        text-align: left;
+        width: 90%;
+    }
+
+    .name{
+        font-size: 1rem;
+    }
+}
